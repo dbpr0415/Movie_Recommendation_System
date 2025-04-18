@@ -1,15 +1,15 @@
 Movie Recommender System
-A simple movie recommendation system built using Streamlit. It suggests movies based on the movie selected by the user.
+A simple movie recommendation system built using Streamlit that suggests movies based on the one selected by the user.
 
 Features
-Select a movie from the list.
+Select a movie from a dropdown list.
 
 Get 5 similar movie recommendations.
 
-Displays movie posters fetched from The Movie Database (TMDb).
+Display movie posters fetched from The Movie Database (TMDb).
 
 Requirements
-You need the following libraries:
+Make sure to install the following libraries:
 
 bash
 Copy
@@ -23,25 +23,24 @@ Copy
 Edit
 git clone https://github.com/dbpr0415/Movie_Recommendation_System.git
 cd Movie_Recommendation_System
-Run the app:
+Run the Streamlit app:
 
 bash
 Copy
 Edit
 streamlit run app.py
-Open your browser and go to http://localhost:8501 to see the app.
+Open your browser and go to http://localhost:8501 to view the app.
 
 Files
-app.py: Main code to run the Streamlit app.
+app.py: Main file that runs the Streamlit app.
 
-main.py: Loads the dataset.
+main.py: Script to load the dataset and display it.
 
-dataset.csv: Movie dataset.
+dataset.csv: Movie dataset (CSV file).
 
-movies_list.pkl: Pickle file with movie data.
+movies_list.pkl: Pickle file containing movie data.
 
-similarity.pkl: Pickle file with movie similarity data.
+similarity.pkl: Pickle file containing movie similarity data.
 
 License
-Open-source project under the MIT License.
-
+This is an open-source project under the MIT License.
